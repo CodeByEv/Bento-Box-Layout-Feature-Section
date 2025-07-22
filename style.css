@@ -183,15 +183,16 @@ body {
 
 @media (max-width: 680px) {
 
-  .header h1,
-  .header p {
+  .header h1 {
     width: auto;
     margin: 1rem;
   }
 
-  .header h1 {
-    padding: 1rem 0;
+  .header p {
+    width: auto;
+    margin: 0 1rem;
   }
+  
   .container {
     display: grid;
     grid-template-columns: 1fr;
