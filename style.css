@@ -188,6 +188,10 @@ body {
     width: auto;
     margin: 1rem;
   }
+
+  .header h1 {
+    padding: 1rem 0;
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr;
